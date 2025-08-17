@@ -898,12 +898,13 @@ h6 {
 
 .footer .footer-about .logo {
   line-height: 1;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  /* max-height: 40px; */
   margin-right: 6px;
+  width: 120px;
 }
 
 .footer .footer-about .logo span {
