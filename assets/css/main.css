@@ -24,7 +24,7 @@
   --primary-color: #1B562B; /* Primary color used for buttons, links, and other elements that need to stand out */
   --secondary-color: #FBD501; /*  */
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #14201c; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #1B562B; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #0a3223; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #12a16b; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -52,7 +52,7 @@
   --background-color: #000704;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #28323a;
+  --surface-color: #1B562B;
   --contrast-color: #ffffff;
 }
 
