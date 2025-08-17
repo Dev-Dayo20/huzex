@@ -1018,38 +1018,21 @@ h6 {
   justify-content: center;
 }
 
-#preloader div {
-  width: 4px;
-  height: 40px;
-  background-color: var(--accent-color);
-  margin: 0 4px;
-}
-
-#preloader div:nth-child(1) {
-  animation: animate-preloader 1s ease-in-out -0.45s infinite;
-}
-
-#preloader div:nth-child(2) {
-  animation: animate-preloader 1s ease-in-out -0.3s infinite;
-}
-
-#preloader div:nth-child(3) {
-  animation: animate-preloader 1s ease-in-out -0.15s infinite;
-}
-
-#preloader div:nth-child(4) {
-  animation: animate-preloader 1s infinite;
+.preloader-logo {
+  width: 150px; /* Adjust based on your logo's size; keep aspect ratio */
+  height: auto;
+  animation: animate-preloader 1.5s ease-in-out infinite; /* Slightly slower for a smoother pulse */
 }
 
 @keyframes animate-preloader {
 
-  0%,
-  100% {
-    transform: scaleY(0.3);
+  0%, 100% {
+    transform: scale(0.9); /* Gentle shrink */
+    opacity: 0.8;
   }
-
   50% {
-    transform: scaleY(1);
+    transform: scale(1.1); /* Gentle grow */
+    opacity: 1;
   }
 }
 
