@@ -1026,13 +1026,13 @@ h6 {
 
 @keyframes animate-preloader {
 
-  0%, 100% {
-    transform: scale(0.9); /* Gentle shrink */
-    opacity: 0.8;
+  0%,
+  100% {
+    transform: scaleY(0.75);
   }
+
   50% {
-    transform: scale(1.1); /* Gentle grow */
-    opacity: 1;
+    transform: scaleY(1);
   }
 }
 
